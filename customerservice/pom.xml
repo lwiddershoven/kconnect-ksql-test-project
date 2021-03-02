@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<springdoc-openapi-ui.version>1.5.2</springdoc-openapi-ui.version>
+		<shedlock-spring.version>4.20.1</shedlock-spring.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -44,6 +45,11 @@
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>${springdoc-openapi-ui.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.javacrumbs.shedlock</groupId>
+			<artifactId>shedlock-spring</artifactId>
+			<version>${shedlock-spring.version}</version>
 		</dependency>
 
 		<dependency>
